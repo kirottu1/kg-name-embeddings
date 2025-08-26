@@ -1,0 +1,70 @@
+# Model files (large tensor files)
+models/*.pth
+models/*.pt
+models/*.pkl
+models/*.h5
+models/*.hdf5
+models/*.onnx
+models/*.pb
+models/*.savedmodel
+
+# Model checkpoints
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+
+# Pickle files
+*.pkl
+*.pickle
+
+# Large data files
+*.obj
+*.bin
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch Lightning
+lightning_logs/
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
