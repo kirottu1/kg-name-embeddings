@@ -1,16 +1,14 @@
-# train_nick_siamese.py
-# Paper-style Siamese training, with threshold sweep + diagnostics.
 import os, pickle, numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.utils.data
 from sklearn.metrics import f1_score, roc_auc_score, average_precision_score
-from siamese_nn import SiameseNetwork  # your A.12 model (float64)
+from siamese_nn import SiameseNetwork
 
 # ----- config -----
-EPOCHS       = 180  # increased
-LR_STEPS     = [0.005, 0.001, 0.0005, 0.0001]  # step every 20 epochs
+EPOCHS       = 180 
+LR_STEPS     = [0.005, 0.001, 0.0005, 0.0001]  
 MODEL_OUT    = "models/model_name_siamese_nick_node2vec_name.pth"
 THRESH_OUT   = "models/model_name_siamese_nick_node2vec_name.threshold.txt"
 TRAINSET_PKL = "testset_trainset/trainset_name_BC5CDR_node2vec_name.obj"
