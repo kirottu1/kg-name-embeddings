@@ -1,4 +1,4 @@
-# quick_check.py
+
 import torch
 from siamese_nn import SiameseNetwork
 
