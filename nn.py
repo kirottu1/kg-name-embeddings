@@ -1,10 +1,8 @@
-# nn.py
-# Matches A.12 from the appendix; defaults to 128-d KGE + 768-d text, float64, BCE+sigmoid.
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# If you change Node2Vec dim or text model size, update these defaults or pass sizes to the classes.
 DEFAULT_KGE_DIM = 128
 DEFAULT_TXT_DIM = 768
 
