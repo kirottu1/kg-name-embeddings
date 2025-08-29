@@ -1,4 +1,4 @@
-# apply_aliases_from_cluster_json.py
+
 import os, json, csv
 import networkx as nx
 
