@@ -1,4 +1,4 @@
-# nick_infer.py  — strict & precise
+
 import os, json, pickle, numpy as np, torch
 from sklearn.neighbors import NearestNeighbors
 from siamese_nn import SiameseNetwork
